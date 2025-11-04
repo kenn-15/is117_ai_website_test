@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "npm run lint:js && npm run lint:css && npm run lint:md",
     "lint:js": "eslint . --ext .js,.jsx,.ts,.tsx",
-    "lint:css": "stylelint \"**/*.{css,scss}\"",
+    "lint:css": "stylelint \"**/*.{css,scss}\" --allow-empty-input",
     "lint:md": "markdownlint \"**/*.md\"",
     "format": "prettier --write .",
     "build": "echo \"replace with your real build command (e.g. vite build)\"",
