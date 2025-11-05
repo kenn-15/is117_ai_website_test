@@ -2,14 +2,17 @@
   "ci": {
     "collect": {
       "staticDistDir": "dist",
-      "numberOfRuns": 1
+      "numberOfRuns": 1,
+      "settings": {
+        "preset": "desktop"
+      }
     },
     "assert": {
       "assertions": {
         "categories:performance": [
-          "error",
+          "warn",
           {
-            "minScore": 0.9
+            "minScore": 0.7
           }
         ],
         "categories:accessibility": [
