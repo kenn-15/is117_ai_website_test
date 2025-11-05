@@ -1,0 +1,14 @@
+node_modules
+npm-debug.log
+.env
+
+# Editor
+.vscode/
+
+# Build outputs
+dist/
+build/
+out/
+
+# CI reports
+.lighthouse/
