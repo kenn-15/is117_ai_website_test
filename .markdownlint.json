@@ -3,5 +3,5 @@
   "MD013": false,
   "MD033": false,
   "MD025": false,
-  "ignores": ["node_modules"]
+  "ignores": ["node_modules/**"]
 }
